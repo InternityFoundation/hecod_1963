@@ -1,0 +1,441 @@
+.page-container{	
+background: #2a52be url(../img/pattern_3.svg) no-repeat center left;
+}
+
+.large{
+	width:100%;
+}
+
+ 
+#loader_form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 999999;
+  display: none;
+}
+
+[data-loader="circle-side-2"] {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  -webkit-animation: circle infinite .95s linear;
+  -moz-animation: circle infinite .95s linear;
+  -o-animation: circle infinite .95s linear;
+  animation: circle infinite .95s linear;
+  border: 2px solid #333;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes circle {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.card-purple{
+	background-color: #dc3545;
+	padding:10px;
+}
+
+.gradient{
+	background: #2a52be;
+	background: linear-gradient(90deg, #dc3545 0%, #d63395 35%, #9b35db 100%);
+}
+
+.blue{
+	background: #2a52be;
+}
+
+.stats-info{
+	font-size:16px !important;;
+}
+
+.stats-icon{
+	font-size: 30px !important;
+}
+
+.m-t-lg {
+     margin-top: 0px; 
+}
+
+.login-box {
+    width: 300px;
+    height: auto;
+    background: #fff url(https://malikcompanygroup.com/img/pattern_3.svg) no-repeat center;
+    padding: 50px;
+    margin-top: 80px;
+    border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+ 
+ .page-title{
+    border-top:3px solid #dc3545;
+ }
+ 
+ .btn-block {
+    display: block;
+    width: 100%;
+	font-size: 16px !important;
+}
+
+.btn-block-text{
+	font-size: 11px !important;
+}
+
+.float-e-margins .btn {
+    margin-bottom: 5px;
+}
+
+.input-group-addon {
+    background: #fafbfc;
+    border-color: #e4e5e7 !important;
+}
+
+.image-upload>input {
+  display: none;
+}
+.image-upload {
+	font-size: 22px;
+    color: #f6f9fc;
+    padding: 0px 0px 0px 33px;
+    margin: -44px 0px 0px 21px;
+    position: relative;
+}
+
+.color-set{
+	background-color:#6f42c1 !important;
+}
+
+.img-size{
+	width:150px;
+	height:40px;
+}
+
+.bg-gradient-primary
+{
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+}
+
+.bg-gradient-secondary
+{
+    background: linear-gradient(87deg, #f7fafc 0, #f7f8fc 100%) !important;
+}
+
+.bg-gradient-success
+{
+    background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-info
+{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-warning
+{
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.bg-gradient-danger
+{
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;
+}
+
+.bg-gradient-light
+{
+    background: linear-gradient(87deg, #adb5bd 0, #adaebd 100%) !important;
+}
+
+.bg-gradient-dark
+{
+    background: linear-gradient(87deg, #212529 0, #212229 100%) !important;
+}
+
+.bg-gradient-default
+{
+    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+}
+
+.bg-gradient-white
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-neutral
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-darker
+{
+    background: linear-gradient(87deg, black 0, black 100%) !important;
+}
+
+.bg-gradient-blue
+{
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+}
+
+.bg-gradient-indigo
+{
+    background: linear-gradient(87deg, #5603ad 0, #9d03ad 100%) !important;
+}
+
+.bg-gradient-purple
+{
+    background: linear-gradient(87deg, #8965e0 0, #bc65e0 100%) !important;
+}
+
+.bg-gradient-pink
+{
+    background: linear-gradient(87deg, #f3a4b5 0, #f3b4a4 100%) !important;
+}
+
+.bg-gradient-red
+{
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;
+}
+
+.bg-gradient-orange
+{
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.bg-gradient-yellow
+{
+    background: linear-gradient(87deg, #ffd600 0, #beff00 100%) !important;
+}
+
+.bg-gradient-green
+{
+    background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-teal
+{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-cyan
+{
+    background: linear-gradient(87deg, #2bffc6 0, #2be0ff 100%) !important;
+}
+
+.bg-gradient-white
+{
+    background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+.bg-gradient-gray
+{
+    background: linear-gradient(87deg, #8898aa 0, #888aaa 100%) !important;
+}
+
+.bg-gradient-gray-dark
+{
+    background: linear-gradient(87deg, #32325d 0, #44325d 100%) !important;
+}
+
+.bg-gradient-light
+{
+    background: linear-gradient(87deg, #ced4da 0, #cecfda 100%) !important;
+}
+
+.bg-gradient-lighter
+{
+    background: linear-gradient(87deg, #e9ecef 0, #e9eaef 100%) !important;
+}
+
+.bg-translucent-primary
+{
+    background-color: rgba(63, 87, 223, .6) !important;
+}
+
+.card-profile{
+	padding: 0px;
+}
+
+.card-profile-image
+{
+    position: relative;
+}
+.card-profile-image img
+{
+    position: absolute;
+    left: 50%;
+
+    max-width: 140px;
+
+    transition: all .15s ease; 
+    transform: translate(-50%, -50%) scale(1);
+
+    border: 3px solid #fff;
+    border-radius: .375rem;
+}
+.card-profile-image img:hover
+{
+    transform: translate(-50%, -50%) scale(1.03);
+}
+
+.card-profile-stats
+{
+    padding: 1rem 0;
+}
+.card-profile-stats > div
+{
+    margin-right: 1rem;
+    padding: .875rem; 
+
+    text-align: center;
+}
+.card-profile-stats > div:last-child
+{
+    margin-right: 0;
+}
+.card-profile-stats > div .heading
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    display: block;
+}
+.card-profile-stats > div .description
+{
+    font-size: .875rem;
+
+    color: #adb5bd;
+}
+
+.card-profile-actions
+{
+    padding: .875rem;
+}
+
+.card-img-top
+{
+    width: 100%;
+
+    border-top-left-radius: calc(.375rem - 1px);
+    border-top-right-radius: calc(.375rem - 1px);
+}
+
+.card-header {
+    margin-bottom: 0;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    background-color: #fff;
+}
+
+
+.image {
+    margin:18px 0 0 0px;
+} 
+
+.modal-form {
+    height: calc(1.0em + 1.0rem + 1px);
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.modal-level{
+	font-size: .8rem;
+}
+
+.modal-group{
+	margin-bottom: .3rem
+}
+.logo{
+	position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+.card-body li {
+  padding-left: 1.3em;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.userData{
+  padding-left: 1.3em;
+  font-size: 13px;
+  padding: 5px 5px 5px 10px;
+}
+
+.tag{
+	padding-left : 10px;
+}
